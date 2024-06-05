@@ -1,0 +1,18 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int r=a*b;
+    if(r<=1000)
+        printf("%d",r);
+    else
+        printf("%d",a+b);
+    return 0;
+}
