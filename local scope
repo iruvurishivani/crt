@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void show() {
+    // Write C code here
+    int a=10;
+    printf("show a= %d\n",a);
+}
+void display()
+{
+    int a=20;
+    printf("display a= %d",a);
+}
+int main ()
+{
+    show();
+    display();
+//printf("main a= %d",a);
+    return 0;
+}
