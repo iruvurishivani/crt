@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void biggest (int a,int b,int c) {
+    // Write C code here
+    if(a>b&&a>c)
+    printf("%d",a);
+    else if(b>c)
+    printf("%d",b);
+}
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    biggest(a,b,c);
+
+
+    return 0;
+}
